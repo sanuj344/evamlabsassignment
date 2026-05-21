@@ -21,7 +21,7 @@ class RoomSocket {
       this.socket.close();
     }
 
-    const wsUrl = `ws://localhost:8000/ws/rooms/${this.roomCode}?token=${this.token}`;
+    const wsUrl = `ws://localhost:8001/ws/rooms/${this.roomCode}?token=${this.token}`;
     useRoomStore.getState().setWsStatus('connecting');
 
     try {
