@@ -53,7 +53,7 @@ graph TD
    ```
 4. Start the FastAPI development server:
    ```bash
-   uvicorn app.main:app --reload --port 8000
+   uvicorn app.main:app --reload --port 8001
    ```
    * The REST API will be running at: `http://localhost:8001`
    * Swagger documentation is available at: `http://localhost:8001/docs`
