@@ -55,8 +55,8 @@ graph TD
    ```bash
    uvicorn app.main:app --reload --port 8000
    ```
-   * The REST API will be running at: `http://localhost:8000`
-   * Swagger documentation is available at: `http://localhost:8000/docs`
+   * The REST API will be running at: `http://localhost:8001`
+   * Swagger documentation is available at: `http://localhost:8001/docs`
 
 ### 2. Frontend Setup
 
